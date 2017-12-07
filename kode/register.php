@@ -1,7 +1,7 @@
 <?php
     include "db.php";
     $userN = $_POST["username"];
-    $pass = $_POST["password"];
+    $pass =  $_POST["password"];
     $pass2 = $_POST["password2"];
 
     $sql = "SELECT * FROM logininfo WHERE `username`= '$userN'";
