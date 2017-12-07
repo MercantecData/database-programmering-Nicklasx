@@ -14,8 +14,8 @@
             $usern=$row['username']; 
             $passw=$row['password']; 
             
-            $posts[] = array('id'=> $id, 'username'=> $usern, 'password'=> $passw);
-            echo "id: " . $row["id"]. " - Name: " . $row["username"]. " Password: " . $row["password"]. "<br>";
+            /*$posts[] = array('id'=> $id, 'username'=> $usern, 'password'=> $passw);
+            echo "id: " . $row["id"]. " - Name: " . $row["username"]. " Password: " . $row["password"]. "<br>";*/
         }
     } else {
         echo "0 results";
