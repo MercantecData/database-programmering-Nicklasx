@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"4.7.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"databasephplogin"},
+{"type":"table","name":"logininfo","database":"databasephplogin","data":
+[
+{"id":"1","username":"Nicklasx","password":"gemme","created":"2017-12-05 11:07:56","modified":"2017-12-05 11:07:56"}
+]
+}
+,{"type":"table","name":"profil","database":"databasephplogin","data":
+[
+{"id":"1","name":"nicklas","stasus":"hej","userID":"1","created":"2017-12-07 09:41:03","modified":"2017-12-07 09:41:03"}
+]
+}
+]
